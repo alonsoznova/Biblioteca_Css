@@ -1,0 +1,52 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+#cr_acc{
+    font-weight: 350;
+    font-size: 20px;
+    color: white;
+    box-shadow: 5px 5px black;
+    background-color: rgb(53, 124, 206);
+    border: 3px solid black;
+    margin: 10px 80px;
+    padding: 7px 40px;
+    width: auto;
+    height: auto;
+}
+.row{
+    display: flex;
+    gap: 15px;
+}
+.col, .col-2, .col-3{
+    color: white;
+    background-color: rgb(122, 180, 190);
+    padding: 25px;
+    margin: 15px 0px;
+}
+.nav{
+    display: flex;
+    background-color: rgb(75, 75, 75);
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+}
+.nav-title{
+    color: white;
+    margin: 10px 20px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px;
+    margin: 5px 20px;
+    width: 500px;
+}
